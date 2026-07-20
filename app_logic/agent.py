@@ -14,12 +14,12 @@ def setup_agent(vectorstore):
     # Instanciar el LLM
     llm = ChatGoogleGenerativeAI(model="gemini-flash-latest", temperature=0.3)
 
-    # Configurar el retriever descartando resultados de baja relevancia
+    # Configurar el retriever aumentando 'k' para que pueda ver más filas del CSV
     retriever = vectorstore.as_retriever(
         search_type="similarity_score_threshold",
         search_kwargs={
-            "score_threshold": 0.35,
-            "k": 4
+            "score_threshold": 0.25,
+            "k": 20
         }
     )
 
