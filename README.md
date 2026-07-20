@@ -16,6 +16,31 @@ El proyecto fue desarrollado como desafio final del programa Alura Agente, y uti
 6. Memoria conversacional: el historial de la conversacion se pasa al modelo en cada consulta, lo que permite referencias contextuales entre preguntas.
 7. Interfaz: la aplicacion se sirve con Streamlit, que presenta un chat interactivo accesible desde el navegador.
 
+## Evidencia del deploy en OCI
+
+La aplicación se encuentra desplegada y funcionando en Oracle Cloud Infrastructure (OCI).
+
+**Enlace de acceso a la aplicación:**
+[http://149.130.184.239/](http://149.130.184.239/)
+
+A continuación se muestran algunas capturas de la aplicación en funcionamiento:
+
+**Interfaz base de la aplicación:**
+<br>
+
+![Captura de la interfaz base](docs/captura1.png)
+
+<br><br>
+
+**Ejemplos de interacción con el asistente:**
+<br>
+
+![Ejemplo de pregunta 1](docs/captura2.png)
+
+<br><br>
+
+![Ejemplo de pregunta 2](docs/captura3.png)
+
 ---
 
 ## Tecnologias utilizadas
