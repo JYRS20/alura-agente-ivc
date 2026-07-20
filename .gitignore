@@ -1,0 +1,25 @@
+# Entornos virtuales
+venv/
+env/
+.venv/
+
+# Archivos de entorno (contienen claves secretas)
+.env
+
+# Archivos de Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Bases de datos vectoriales locales (se regeneran automáticamente)
+faiss_index/
+chroma_db/
+
+# Scripts de diagnóstico temporales
+check_models.py
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
