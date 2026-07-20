@@ -37,10 +37,6 @@ A continuación se muestran algunas capturas de la aplicación en funcionamiento
 
 ![Ejemplo de pregunta 1](docs/captura2.png)
 
-<br><br>
-
-![Ejemplo de pregunta 2](docs/captura3.png)
-
 ---
 
 ## Tecnologias utilizadas
